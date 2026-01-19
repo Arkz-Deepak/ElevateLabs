@@ -25,10 +25,10 @@ string_integer = ord(input("Enter a character :"))
 string_float = float(string_integer)
 
 print("The integer form ",chr(string_integer)," is ",string_integer)
-print("The integer form ",chr(string_integer)," is ",string_float)
+print("The float form ",chr(string_integer)," is ",string_float)
 
 try:
-    a = int(input("Enter a number:"))
+    a = int(input("Enter a name:"))
     print("Hi ",a)
 except Exception  as e:
     print("Error in last command:\n",e)
